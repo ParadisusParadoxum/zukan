@@ -8,7 +8,7 @@ const props = defineProps<{
 
 <template>
   <v-card>
-    <v-virtual-scroll :items="props.pokemon" height="26rem">
+    <v-virtual-scroll :items="props.pokemon" height="26rem" item-height="6.5rem">
       <template v-slot:default="{ item }">
         <v-list-item :title="item.names[1].name" :subtitle="item.names[2].name">
           <template v-slot:prepend>
