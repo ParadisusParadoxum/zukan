@@ -1,33 +1,24 @@
-# zukan
+# Zukan
 
-This template should help get you started developing with Vue 3 in Vite.
+An attempt at a clean UI for information about Pokémon.
 
-## Recommended IDE Setup
+### Introduction
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+When I started playing the Japanese version of _Pokémon Gold_ to practice my Japanese a bit more, I quickly felt the need for a central place with a clear, multilingual interface for looking up all kinds of information about the different Pokémon, items and everything else.  
+Inspired by a [blog post](https://lichess.org/@/thibault/blog/we-dont-want-all-the-features/q3nOzv4n) I read some time ago, I started _Zukan_ as a small side project with the intention of keeping it minimalistic, yet functional.
 
-## Type Support for `.vue` Imports in TS
+### State of the project
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Currently, the project is still in active development and is not very useful yet. Features are added gradually and without clear prioritization.  
+Gen II games, _Pokémon Gold, Silver & Crystal_, are the only games taken into account right now.
 
-## Customize configuration
+### Technical documentation
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+> Recommended and tested versions are: Node.js v22.3.0 & npm v10.8.0
 
-## Project Setup
+I'm the only developer at the moment, although Pull Requests are always welcome! If you want to contribute a feature, please think carefully about the benefit to the user and integrate it cleanly into the existing UI and [code style](.prettierrc.json).
+It is recommended to run the development server using the provided `npm run dev` script, while formatting the code is achieved by `npm run format` and building for production is done by running `npm run build`.
 
-```sh
-npm install
-```
+_Zukan_ is fundamentally designed with the idea to run out of the box without relying on external services, e.g. APIs, during runtime. The latest stable version can always be seen on [my own instance](https://zukan.jannes.dev).
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+**Special thanks to PokeApi.co for providing a great resource.**
