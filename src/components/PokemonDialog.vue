@@ -26,7 +26,6 @@ const emits = defineEmits<{ (event: 'close'): void }>()
           variant="flat"
           class="ma-1"
           :color="getTypeColor(type.name)"
-          :key="type"
         >
           <template v-slot:prepend>
             <TypeSvg :type="type" width="1rem" />
