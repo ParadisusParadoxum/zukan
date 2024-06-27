@@ -11,12 +11,12 @@ export interface Pokemon {
   is_legendary: boolean
 }
 
-interface PokemonName {
+export interface PokemonName {
   language: string
   name: string
 }
 
-interface PokemonType {
+export interface PokemonType {
   _id: number
   name: string
 }

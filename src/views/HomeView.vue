@@ -8,7 +8,7 @@ import PokemonDialog from '@/components/PokemonDialog.vue'
 const dialog = ref<boolean>(false)
 const pokemon = ref<Pokemon[]>(pokemonJSON as Pokemon[])
 const searchTerm = ref<string>('')
-const selectedPokemon = ref<Pokemon | null>(null)
+const selectedPokemon = ref<Pokemon | undefined>(undefined)
 
 const updateDialog = (pokemon?: Pokemon) => {
   if (pokemon) selectedPokemon.value = pokemon

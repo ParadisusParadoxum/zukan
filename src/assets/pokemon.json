@@ -1597,7 +1597,7 @@
     "types": [
       {
         "_id": 1,
-        "name": "fairy"
+        "name": "normal"
       }
     ],
     "johtodex_number": 40,
@@ -1635,7 +1635,7 @@
     "types": [
       {
         "_id": 1,
-        "name": "fairy"
+        "name": "normal"
       }
     ],
     "johtodex_number": 41,
@@ -1673,7 +1673,7 @@
     "types": [
       {
         "_id": 1,
-        "name": "fairy"
+        "name": "normal"
       }
     ],
     "johtodex_number": 42,
@@ -1712,10 +1712,6 @@
       {
         "_id": 1,
         "name": "normal"
-      },
-      {
-        "_id": 2,
-        "name": "fairy"
       }
     ],
     "johtodex_number": 43,
@@ -1754,10 +1750,6 @@
       {
         "_id": 1,
         "name": "normal"
-      },
-      {
-        "_id": 2,
-        "name": "fairy"
       }
     ],
     "johtodex_number": 44,
@@ -1796,10 +1788,6 @@
       {
         "_id": 1,
         "name": "normal"
-      },
-      {
-        "_id": 2,
-        "name": "fairy"
       }
     ],
     "johtodex_number": 45,
@@ -1837,7 +1825,7 @@
     "types": [
       {
         "_id": 1,
-        "name": "fairy"
+        "name": "normal"
       }
     ],
     "johtodex_number": 46,
@@ -1875,7 +1863,7 @@
     "types": [
       {
         "_id": 1,
-        "name": "fairy"
+        "name": "normal"
       },
       {
         "_id": 2,
@@ -4911,7 +4899,7 @@
     "types": [
       {
         "_id": 1,
-        "name": "fairy"
+        "name": "normal"
       }
     ],
     "johtodex_number": 123,
@@ -4949,7 +4937,7 @@
     "types": [
       {
         "_id": 1,
-        "name": "fairy"
+        "name": "normal"
       }
     ],
     "johtodex_number": 124,
@@ -5178,10 +5166,6 @@
       {
         "_id": 1,
         "name": "water"
-      },
-      {
-        "_id": 2,
-        "name": "fairy"
       }
     ],
     "johtodex_number": 130,
@@ -5220,10 +5204,6 @@
       {
         "_id": 1,
         "name": "water"
-      },
-      {
-        "_id": 2,
-        "name": "fairy"
       }
     ],
     "johtodex_number": 131,
@@ -6186,10 +6166,6 @@
       {
         "_id": 1,
         "name": "psychic"
-      },
-      {
-        "_id": 2,
-        "name": "fairy"
       }
     ],
     "johtodex_number": 156,
