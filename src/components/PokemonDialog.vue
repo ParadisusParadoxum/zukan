@@ -12,7 +12,7 @@ const emits = defineEmits<{ (event: 'close'): void }>()
     <v-card>
       <v-card-item>
         <template v-slot:prepend>
-          <v-img :width="100" :src="props.pokemon?.sprites[0].front_default"></v-img>
+          <v-img width="100" :src="props.pokemon?.sprites[0].front_default"></v-img>
         </template>
         <template v-slot:title>
           {{ props.pokemon?.names[1].name }}
@@ -28,7 +28,7 @@ const emits = defineEmits<{ (event: 'close'): void }>()
           :color="getTypeColor(type.name)"
         >
           <template v-slot:prepend>
-            <TypeSvg :type="type" width="1rem" />
+            <TypeSvg :type="type" width="16" />
           </template>
         </v-chip>
       </v-card-item>

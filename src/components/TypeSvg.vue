@@ -4,7 +4,7 @@ import InlineSvg from 'vue-inline-svg'
 
 const props = defineProps<{ type: PokemonType | undefined }>()
 
-const svgPath = `/src/assets/types/${props.type?.name}.svg`
+const svgPath = `/types/${props.type?.name}.svg`
 const svgTitle = `${props.type?.name} type`
 </script>
 
