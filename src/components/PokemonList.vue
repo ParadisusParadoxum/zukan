@@ -11,7 +11,7 @@ const emits = defineEmits<{ (event: 'open', pokemon: Pokemon): void }>()
       <template v-slot:default="{ item }">
         <v-list-item @click="$emit('open', item)">
           <template v-slot:prepend>
-            <v-img :width="100" :src="item.sprites[0].front_default"></v-img>
+            <v-img width="100" :src="item.sprites[0].front_default"></v-img>
           </template>
           <v-list-item-title>{{ item.names[1].name }}</v-list-item-title>
           <v-list-item-subtitle>{{ item.names[2].name }}</v-list-item-subtitle>

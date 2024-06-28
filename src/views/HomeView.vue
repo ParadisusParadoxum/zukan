@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import type { Pokemon } from '@/stores/types'
-import { ref, computed } from 'vue'
+import { shallowRef, computed } from 'vue'
 import pokemonJSON from '@/assets/pokemon.json'
 import PokemonList from '@/components/PokemonList.vue'
 import PokemonDialog from '@/components/PokemonDialog.vue'
 
-const dialog = ref<boolean>(false)
-const pokemon = ref<Pokemon[]>(pokemonJSON as Pokemon[])
-const searchTerm = ref<string>('')
-const selectedPokemon = ref<Pokemon | undefined>(undefined)
+const dialog = shallowRef<boolean>(false)
+const pokemon = shallowRef<Pokemon[]>(pokemonJSON as Pokemon[])
+const searchTerm = shallowRef<string>('')
+const selectedPokemon = shallowRef<Pokemon | undefined>(undefined)
 
 const updateDialog = (pokemon?: Pokemon) => {
   if (pokemon) selectedPokemon.value = pokemon
