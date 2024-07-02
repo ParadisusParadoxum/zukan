@@ -21,4 +21,4 @@ It is recommended to run the development server using the provided `npm run dev`
 
 _Zukan_ is fundamentally designed with the idea to run out of the box without relying on external services, e.g. APIs, during runtime. The latest stable version can always be seen on [my own instance](https://zukan.jannes.dev).
 
-**Special thanks to PokeApi.co for providing a great resource.**
+**Special thanks to [PokeApi.co](https://pokeapi.co/) and [duiker101](https://github.com/duiker101/pokemon-type-svg-icons) for providing great resources.**
