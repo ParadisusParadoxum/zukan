@@ -1,3 +1,5 @@
+> This project will be archived soon...
+
 # Zukan
 
 An attempt at a clean UI for information about Pokémon.
